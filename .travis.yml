@@ -5,4 +5,5 @@ before_install:
 install:
     - make
 script:
-    - make check
+    - automator document.workflow
+    - boot2docker shellinit
