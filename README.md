@@ -29,3 +29,7 @@ Open `System Preferences`. In the fourth grouping from the top, select `Users & 
 ## Development
 
 Development is done using `Automator`. Simply open it and select `Open an Existing Document` and navigate to the workflow file included.
+
+## Distribution
+
+To make a distributable binary archive, simply run `make dist`.
