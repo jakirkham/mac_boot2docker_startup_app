@@ -4,3 +4,5 @@ before_install:
     - sudo installer -pkg boot2docker.pkg -target /
 install:
     - make
+script:
+    - make check
