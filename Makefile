@@ -17,7 +17,7 @@ all:
 	rm -f Startup\ Boot2docker.app/Contents/PkgInfo
 	rm -f Startup\ Boot2docker.app/Contents/version.plist
 
-check:
+check: all
 	open -W Startup\ Boot2docker.app && boot2docker shellinit
 
 clean:
