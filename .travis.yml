@@ -5,5 +5,5 @@ before_install:
 install:
     - make
 script:
-    - automator document.workflow && notifyutil -p boot2docker
+    - automator -v document.workflow && notifyutil -p boot2docker
     - notifyutil -1 boot2docker && boot2docker shellinit
