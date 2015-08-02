@@ -19,3 +19,6 @@ all:
 
 check:
 	open -W Startup\ Boot2docker.app && boot2docker shellinit
+
+clean:
+
