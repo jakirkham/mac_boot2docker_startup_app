@@ -2,3 +2,5 @@ language: objective-c
 before_install:
     - curl -L https://github.com/boot2docker/osx-installer/releases/download/v1.7.1/Boot2Docker-1.7.1.pkg > boot2docker.pkg
     - sudo installer -pkg boot2docker.pkg -target /
+install:
+    - make
