@@ -4,3 +4,6 @@ all:
 
 	# Replace the icons in the new app with those from Boot2Docker.
 	cp /Applications/boot2docker.app/Contents/Resources/applet.icns Startup\ Boot2docker.app/Contents/Resources/AutomatorApplet.icns
+
+	# Add the workflow to the app.
+	cp document.workflow Startup\ Boot2docker.app/Contents/document.wflow
