@@ -25,3 +25,7 @@ Once built, one can copy the application where ever they wish. Alternatively, on
 Open `System Preferences`. In the fourth grouping from the top, select `Users & Groups`. Select your user if it is not already selected in the list on the left. Click `Login Items` in the upper right. Click the `+` and navigate to `Startup Boot2docker.app`. Make sure the app is selected and click `Add`. Alternatively, you can drag-and-drop the `Startup Boot2docker.app` into the active list.
 
 **Protip:** Add `eval "$(boot2docker shellinit)"` to the shell start up script (e.g `~/.bash_profile`).
+
+## Development
+
+Development is done using `Automator`. Simply open it and select `Open an Existing Document` and navigate to the workflow file included.
