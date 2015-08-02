@@ -5,4 +5,6 @@ before_install:
 install:
     - make
 script:
+    - boot2docker init -v
+    - boot2docker up -v
     - make check
