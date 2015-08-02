@@ -25,3 +25,6 @@ clean:
 install:
 	rm -rf /Applications/Startup\ Boot2docker.app
 	cp -r Startup\ Boot2docker.app/ /Applications/Startup\ Boot2docker.app/
+
+distclean:
+	rm -rf Startup\ Boot2docker.app
