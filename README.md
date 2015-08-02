@@ -15,3 +15,7 @@ To build an Application from the workflow, simply run `make`.
 ## Testing
 
 To test the Application once it is built, simply run `make check`.
+
+## Installation
+
+Once built, one can copy the application where ever they wish. Alternatively, one can install to `/Applications` from the command line by running `sudo make install`.
