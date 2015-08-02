@@ -11,3 +11,7 @@ In order to build or use this, install [`boot2docker`]( https://boot2docker.io )
 ## Building
 
 To build an Application from the workflow, simply run `make`.
+
+## Testing
+
+To test the Application once it is built, simply run `make check`.
