@@ -16,3 +16,6 @@ all:
 	# Remove the unneeded files.
 	rm -f Startup\ Boot2docker.app/Contents/PkgInfo
 	rm -f Startup\ Boot2docker.app/Contents/version.plist
+
+check:
+	open -W Startup\ Boot2docker.app && boot2docker shellinit
