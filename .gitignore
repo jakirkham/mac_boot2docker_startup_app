@@ -1,2 +1,2 @@
-# Skip the app as it is a build product.
-Startup\ Boot2docker.app
+# Skip the app or related objects as they are build products.
+Startup\ Boot2docker.app*
