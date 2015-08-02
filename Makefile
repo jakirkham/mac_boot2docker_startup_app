@@ -12,3 +12,7 @@ all:
 	sed -i.bak "s/Application-Stub/Startup-Boot2docker/g" Startup\ Boot2docker.app/Contents/Info.plist; rm Startup\ Boot2docker.app/Contents/Info.plist.bak
 	tr '\n' '\r' < Startup\ Boot2docker.app/Contents/Info.plist | sed 's/Application Stub/Startup Boot2docker/2' | tr '\r' '\n' > Startup\ Boot2docker.app/Contents/Info.plist.new; mv Startup\ Boot2docker.app/Contents/Info.plist.new Startup\ Boot2docker.app/Contents/Info.plist
 	printf "%s\n" "`< Startup\ Boot2docker.app/Contents/Info.plist`" > Startup\ Boot2docker.app/Contents/Info.plist.new; mv Startup\ Boot2docker.app/Contents/Info.plist.new Startup\ Boot2docker.app/Contents/Info.plist
+
+	# Remove the unneeded files.
+	rm -f Startup\ Boot2docker.app/Contents/PkgInfo
+	rm -f Startup\ Boot2docker.app/Contents/version.plist
