@@ -5,6 +5,7 @@ before_install:
 install:
     - make
 script:
+    - curl https://api.github.com/repos/boot2docker/boot2docker/releases
     - boot2docker init -v
     - boot2docker up -v
     - make check
